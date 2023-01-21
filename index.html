@@ -11,12 +11,11 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
   </head>
   <body>
-    <section class="header"> 
+    <section class="header">
       <nav>
-        <a href="index.html"><img src="/images/logo.png"></a>
+        <a href="index.html"><img src="/images/logo_250.png"></a>
          <div class="nav-links" id="navLinks"> 
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-          <i class="fa-regular fa-xmark"></i>       
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>     
           <ul>
             <li><a href="">HOME</a></li>
             <li><a href="">ABOUT</a></li>
@@ -24,21 +23,81 @@
             <li><a href="">CONTACT</a></li>
           </ul>        
         </div>
-         <i class="fa-regular fa-bars"></i>
-         <span onclick="openNav()">open</span>
+        
+         <span class="menu" onclick="openNav()" >Menu</span>
       </nav>
     <div class="text-box">
-      <h1>World's Biggest University </h1>
+      <h1> Dr. B.R. Ambedkar National Institute Of Technology </h1>
       <p>Making website is now one of the easiest thing in the world. You just need to learn HTML,CSS,<br> Javascript and you are good to go</p>
+
       <a href="" class="hero-btn">Visit Us To Know</a>
-      .
+      
     </div>
     </section>
+    <section class="courses">
+      <h1>Courses We Offer</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+      <div class="row">
+        <a href="" class="coursecolumn">
+          <h3>Graduation</h3>
+          <p>We offer many graduation level courses in our institution, click to know more</p>
+        </a>
+        <a href="" class="coursecolumn">
+          <h3>Post-Graduation</h3>
+          <p>We offer many post graduation level courses in our institution, click to know more</p>
+        </a>
+        <a href="" class="coursecolumn">
+          <h3>Doctrate</h3>
+          <p>We offer many Doctrate level courses in our institution, click to know more</p>
+        </a>
+      </div>
+    </section>
+    <section class="campus">
+     <h1>Our Campus</h1>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p> 
+     <div class="marquee">
+      <ul class="marquee-content-1">
+        <li><img src="images/main_gate.png" alt="london" class="responsive"></li>
+        <li><img src="images/it building.jpg" alt="cafeteria" class="responsive"></li>
+        <li><img src="images/hall.jpg" alt="basketball" class="responsive"></li>
+        <li><img src="images/basket court.jpg" class="responsive"></li>
+      </ul>
+      <ul class="marquee-content-2">
+        <li><img src="images/main_gate.png" alt="london" class="responsive"></li>
+        <li><img src="images/it building.jpg" alt="cafeteria" class="responsive"></li>
+      
+      </ul>
+     </div>
+
+     <!-- testimonials -->
+
+     <section class="testimonial">
+      <h1 class="heading">What Our Students Say</h1>
+      <p class="heading">Some reviews from our graduated students.</p>
+      <div class="testimonials">       
+          <div class="review">
+             <img src="images/woman.jpeg" class="students" alt="female student">
+            <p> I have made my career and infinite beautiful memories here. The faculty has been nothing short of amazing. Highly recommend.</p>
+            <h3>-Amanda, Btech 2020</h3>
+          </div>        
+          <div class="review"> 
+            <img src="images/man.jpg" class="students" alt="man">
+            <p>I have made my career and infinite beautiful memories here. The faculty has been nothing short of amazing. Highly recommend</p>
+            <h3>-Chris, Btech 2019</h3>
+          </div>   
+      </div>
+     </section>
+    <!-- call for action -->
+    <section class="cta">
+      <h1>Enroll For Our Various Online Courses <br> Anywhere From The World</h1>
+      <a href="" class="hero-btn">CONTACT US</a>
+
+    </section>
     <script>
-        function openNav(){
+        function closeNav(){
           document.getElementById("navLinks").style.width = "0";
         }
-        function closeNav(){
+        function openNav(){
           document.getElementById("navLinks").style.width = "200px";
         }
 
